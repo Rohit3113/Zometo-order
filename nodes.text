@@ -1,0 +1,34 @@
+
+// {
+//   "name": "zometo-order",
+//   "version": "1.0.0",
+//   "description": "",
+//   "main": "index.js",
+//   "scripts": {
+//     "start": "cd backend && npm start",
+//      "prebuild": "cd frontend && npm install && cd backend && npm install",
+//     "build": "cd frontend && npm run build",
+//     "postbuild": "move frontend/build backend/src/public"
+
+//   },
+//   "keywords": [],
+//   "author": "",
+//   "license": "ISC"
+// }
+
+
+
+
+
+mongodb+srv://Rohit3113:QPDv8D$7KBn@#k7@cluster0.nrqvfen.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+
+"prebuild": "cd backend && npm install && cd ../ && cd frontend && npm install",
+
+
+
+==   CyNQNLqHZ1wKlRM3
+
+
+mongodb+srv://Rohit3313:CyNQNLqHZ1wKlRM3@cluster0.hzyodnc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

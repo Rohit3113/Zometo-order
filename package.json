@@ -1,0 +1,24 @@
+{
+  "name": "zometo-order",
+  "homepage": "https://Rohit3113.github.io/Zometo-order/",
+  "version": "1.0.0",
+  "description": "## 1. Demo And Installation",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages-d build",
+    "start": "cd backend && npm start",
+    "prebuild": "cd backend && npm install && cd ../ && cd frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "postbuild": "move frontend/build  backend/src/public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18 <19"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
